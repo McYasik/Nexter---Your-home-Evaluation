@@ -1,0 +1,19 @@
+@import "navbar";
+@import "header";
+@import "realtors";
+@import "features";
+@import "story";
+@import "homes";
+@import "gallery";
+@import "footer";
+
+//---------------------------
+
+#rightpart{
+  width: 95%;
+}
+
+#navbar{
+  min-height: 100vh;
+  width: 5%;
+}

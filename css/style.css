@@ -1,0 +1,196 @@
+#navbar {
+  background-color: #c69963;
+}
+#navbar i {
+  font-size: 30px;
+}
+
+#header {
+  background-color: #101d2c;
+}
+#header h3 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#header span {
+  font-size: 0.85em;
+  color: #c69963;
+}
+#header button {
+  background-color: #c69963;
+  border-radius: 0px;
+  font-size: 0.7em;
+  padding: 0.6em 1.5em;
+  font-weight: bold;
+  color: white;
+}
+#header button:hover {
+  background-color: #a06917;
+}
+#header button:active {
+  transform: translateY(-5px);
+}
+#header .transparybackground {
+  background-image: url("../img/hero.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-color: #101d2c;
+  background-blend-mode: overlay;
+}
+#header #logopart {
+  height: 10%;
+}
+#header #logopart img {
+  height: 25px;
+}
+#header .line-before-after p {
+  overflow: hidden;
+}
+#header .line-before-after p:after {
+  content: "";
+  display: inline-block;
+  height: 0.6em;
+  vertical-align: bottom;
+  width: 50%;
+  margin-right: -75%;
+  margin-left: 10px;
+  border-top: 1px solid #797979;
+}
+#header .line-before-after p:before {
+  content: "";
+  display: inline-block;
+  height: 0.6em;
+  vertical-align: bottom;
+  width: 50%;
+  margin-right: 10px;
+  margin-left: -75%;
+  border-top: 1px solid #797979;
+}
+#header #seenOnFooter img {
+  height: 15px;
+  opacity: 50%;
+}
+
+#header .realtors h6 {
+  color: white;
+  margin: 0;
+  font-size: 0.9em;
+}
+#header .realtors p {
+  color: grey;
+  font-size: 0.6em;
+}
+#header .realtors img {
+  width: 90%;
+  border-radius: 50%;
+}
+#header .realtors span {
+  color: #c69963;
+  font-size: 0.9em;
+}
+
+#partII h6 {
+  margin-bottom: 1em;
+  font-size: 0.85em;
+  color: #5a5a5a;
+}
+#partII p {
+  font-size: 0.85em;
+  color: grey;
+}
+
+#partIII #storyimages {
+  background-image: url("../img/back.jpg");
+  background-size: cover;
+  background-color: #c69963;
+  background-blend-mode: overlay;
+  opacity: 80%;
+  min-height: 50vh;
+}
+#partIII #storyimages .img_st1 {
+  width: 70%;
+  max-width: 70vh;
+}
+#partIII #storyimages .img_st2 {
+  width: 45%;
+  transform: translate(50%, 70%) !important;
+  max-width: 70vh;
+}
+#partIII #storytexte {
+  padding: 5%;
+}
+#partIII h3 {
+  font-size: 2em;
+}
+#partIII span {
+  font-size: 0.8em;
+  color: #c69963;
+  font-weight: bold;
+}
+#partIII button {
+  background-color: #c69963;
+  border-radius: 0px;
+  font-size: 0.7em;
+  padding: 0.6em 1.5em;
+  font-weight: bold;
+  color: white;
+  width: max-content;
+}
+#partIII button:hover {
+  background-color: #a06917;
+}
+#partIII button:active {
+  transform: translateY(-5px);
+}
+
+#partIV img {
+  width: 100%;
+}
+#partIV button {
+  background-color: #c69963;
+  border-radius: 0px;
+  font-size: 1.3em;
+  padding: 0.6em 1.5em;
+  color: white;
+  width: max-content;
+}
+#partIV button:hover {
+  background-color: #a06917;
+}
+#partIV button:active {
+  transform: translateY(1px);
+}
+#partIV .homeName {
+  padding: 0.6em;
+  background-color: #101d2c;
+  width: 80%;
+  position: relative;
+  transform: translateY(-20px);
+}
+#partIV .homeName h5 {
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+#footer {
+  background-color: #101d2c;
+}
+#footer a {
+  color: whitesmoke !important;
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+#footer p {
+  font-size: 0.8em;
+}
+
+#rightpart {
+  width: 95%;
+}
+
+#navbar {
+  min-height: 100vh;
+  width: 5%;
+}
+
+/*# sourceMappingURL=style.css.map */

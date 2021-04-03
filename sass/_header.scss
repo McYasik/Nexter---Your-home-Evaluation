@@ -1,0 +1,90 @@
+#header{
+  background-color: #101d2c;
+
+
+  & h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  & span{
+    font-size: 0.85em;
+    color: #c69963;
+  }
+
+  button{
+    background-color: #c69963;
+    border-radius: 0px;
+    font-size: 0.7em;
+    padding: 0.6em 1.5em;
+    font-weight: bold;
+    color: white;
+  }
+
+  button:hover{
+    background-color: #a06917;
+  }
+
+  button:active{
+    transform: translateY(-5px);
+  }
+
+  & .transparybackground{
+    background-image: url('../img/hero.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-color: #101d2c;
+    background-blend-mode: overlay;
+  }
+
+  & #logopart{
+
+    height: 10%;
+
+    & img {
+      height: 25px;
+    }
+  }
+
+  & .line-before-after{
+
+    & p{
+      overflow: hidden;
+    }
+
+    & p:after{
+      content: "";
+      display: inline-block;
+      height: 0.6em;
+      vertical-align:bottom;
+      width: 50%;
+      margin-right: -75%;
+      margin-left: 10px;
+      border-top: 1px solid #797979;
+    }
+
+    & p:before{
+      content: "";
+      display: inline-block;
+      height: 0.6em;
+      vertical-align: bottom;
+      width: 50%;
+      margin-right: 10px;
+      margin-left: -75%;
+      border-top: 1px solid #797979;
+    }
+  }
+
+  & #headerMiddle{
+
+  }
+
+  & #seenOnFooter{
+
+    & img{
+      height: 15px;
+      opacity: 50%;
+    }
+  }
+
+}

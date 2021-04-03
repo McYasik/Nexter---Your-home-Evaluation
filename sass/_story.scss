@@ -1,0 +1,55 @@
+#partIII{
+
+  #storyimages{
+    background-image: url("../img/back.jpg");
+    background-size: cover;
+    background-color: #c69963;
+    background-blend-mode:overlay;
+    opacity: 80%;
+    min-height: 50vh;
+
+    & .img_st1{
+      width: 70%;
+      max-width: 70vh;
+    }
+
+    & .img_st2{
+      width: 45%;
+      transform: translate(50%,70%) !important;
+      max-width: 70vh;
+    }
+  }
+
+  #storytexte{
+    padding: 5%;
+  }
+
+  h3{
+  font-size: 2em;
+  }
+
+  span{
+    font-size: 0.80em;
+    color: #c69963;
+    font-weight: bold;
+  }
+
+  button{
+    background-color: #c69963;
+    border-radius: 0px;
+    font-size: 0.7em;
+    padding: 0.6em 1.5em;
+    font-weight: bold;
+    color: white;
+    width: max-content;
+  }
+
+  button:hover{
+    background-color: #a06917;
+  }
+
+  button:active{
+    transform: translateY(-5px);
+  }
+
+}
