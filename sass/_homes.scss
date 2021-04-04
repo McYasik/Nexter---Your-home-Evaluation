@@ -1,10 +1,10 @@
-#partIV{
+#partIV {
 
-  img{
+  img {
     width: 100%;
   }
 
-  button{
+  button {
     background-color: #c69963;
     border-radius: 0px;
     font-size: 1.3em;
@@ -13,25 +13,59 @@
     width: max-content;
   }
 
-  button:hover{
+  button:hover {
     background-color: #a06917;
   }
 
-  button:active{
+  button:active {
     transform: translateY(1px);
   }
 
-  .homeName{
+  .homeName {
     padding: 0.6em;
     background-color: #101d2c;
     width: 80%;
     position: relative;
     transform: translateY(-20px);
 
-    & h5{
+    & h5 {
       font-weight: normal;
       font-size: 1.2em;
     }
   }
-
 }
+
+  @media (max-width: 1020px) {
+    #partIV{
+      h5{
+        min-height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      button{
+        font-size: 1em;
+      }
+
+      .house_card{
+        padding : 0 20px !important;
+        margin-bottom: 20px !important;
+      }
+
+    }
+
+  }
+
+  @media (max-width: 1285px) {
+    #partIV {
+      h5 {
+        min-height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+
+    }
+  }

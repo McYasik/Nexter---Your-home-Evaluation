@@ -13,7 +13,29 @@
   width: 95%;
 }
 
-#navbar{
-  min-height: 100vh;
+#navleft{
   width: 5%;
+}
+
+#navcollapse{
+  display: none !important;
+}
+
+@media (max-width: 768px){
+
+  #rightpart{
+    width: 100%;
+  }
+
+  #navcollapse{
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+  }
+
+  #navleft{
+    display: none !important;
+  }
+
 }

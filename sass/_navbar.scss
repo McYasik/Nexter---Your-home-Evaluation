@@ -1,8 +1,33 @@
-#navbar{
+#navcollapse, #navleft{
   background-color: #c69963;
 
   & i{
     font-size: 30px;
   }
 
+  & button:active{
+    transform: translateY(1px);
+
+
+  }
+}
+
+@media (max-width: 768px){
+  #navcollapse{
+    position: fixed;
+    top:0;
+  }
+}
+
+#navicons{
+  position: fixed;
+  top: 30vh;
+  left: -10x;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+
+  i:hover{
+    color: #b8a9a9 !important;
+  }
 }

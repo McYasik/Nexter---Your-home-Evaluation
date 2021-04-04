@@ -1,8 +1,29 @@
-#navbar {
+#navcollapse, #navleft {
   background-color: #c69963;
 }
-#navbar i {
+#navcollapse i, #navleft i {
   font-size: 30px;
+}
+#navcollapse button:active, #navleft button:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 768px) {
+  #navcollapse {
+    position: fixed;
+    top: 0;
+  }
+}
+#navicons {
+  position: fixed;
+  top: 30vh;
+  left: -10x;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+#navicons i:hover {
+  color: #b8a9a9 !important;
 }
 
 #header {
@@ -88,6 +109,14 @@
   color: #c69963;
   font-size: 0.9em;
 }
+@media (max-width: 768px) {
+  #header .realtors {
+    margin-top: 20px;
+  }
+  #header .realtors img {
+    width: 60%;
+  }
+}
 
 #partII h6 {
   margin-bottom: 1em;
@@ -97,6 +126,11 @@
 #partII p {
   font-size: 0.85em;
   color: grey;
+}
+@media (max-width: 768px) {
+  #partII p {
+    margin-bottom: 40px;
+  }
 }
 
 #partIII #storyimages {
@@ -172,6 +206,29 @@
   font-size: 1.2em;
 }
 
+@media (max-width: 1020px) {
+  #partIV h5 {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #partIV button {
+    font-size: 1em;
+  }
+  #partIV .house_card {
+    padding: 0 20px !important;
+    margin-bottom: 20px !important;
+  }
+}
+@media (max-width: 1285px) {
+  #partIV h5 {
+    min-height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 #footer {
   background-color: #101d2c;
 }
@@ -188,9 +245,29 @@
   width: 95%;
 }
 
-#navbar {
-  min-height: 100vh;
+#navleft {
   width: 5%;
+}
+
+#navcollapse {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  #rightpart {
+    width: 100%;
+  }
+
+  #navcollapse {
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+  }
+
+  #navleft {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

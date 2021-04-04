@@ -21,4 +21,15 @@
     font-size: 0.9em;
   }
 
+
+  @media (max-width: 768px){
+
+    img{
+      width: 60%;
+    }
+
+    margin-top: 20px;
+
+  }
+
 }

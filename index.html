@@ -28,15 +28,48 @@
 
 <!-----------------	NAVBAR 	-------------------->
 
-		<div id="navbar" class="d-flex justify-content-center align-items-start">
-			<button class="border-0 bg-transparent text-white my-3">
-				<i class="fas fa-bars"></i>
-			</button>
+		<div id="navleft" class="d-flex justify-content-center align-items-start">
+			<nav class="navbar">
+				<div class="container-fluid">
+					<button class="border-0 bg-transparent text-white">
+						<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+					</button>
+				</div>
+				<div class="container-fluid" id="navicons">
+					<a href="#header" class="my-4"><i class="fas fa-home text-white"></i></a>
+					<a href="#partII" class="my-4"><i class="fas fa-chalkboard-teacher text-white"></i></a>
+					<a href="#partIII" class="my-4"><i class="fas fa-door-open text-white"></i></a>
+					<a href="#partIV" class="my-4"><i class="fas fa-globe text-white"></i></a>
+				</div>
+			</nav>
 		</div>
+
+		<nav id="navcollapse" class="d-flex justify-content-center align-items-start navbar navbar-expand-lg navbar-light">
+
+			<button class="border-0 bg-transparent text-white navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="menuPrincipal">
+				<ul class="navbar-nav">
+					<li class="nav-item d-flex justify-content-center">
+						<a href="#logopart" class="nav-link active text-white">Nexter</a>
+					</li>
+					<li class="nav-item d-flex justify-content-center">
+						<a href="#partII" class="nav-link text-white">Features</a>
+					</li>
+					<li class="nav-item d-flex justify-content-center">
+						<a href="#partIII" class="nav-link text-white">Find your home</a>
+					</li>
+					<li class="nav-item d-flex justify-content-center">
+						<a href="#partIV" class="nav-link text-white">Our Houses</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
 		<!-----------------	PARTIE DROITE 	-------------------->
 		<div id="rightpart">
-
 
 			<!-----------------	PARTIE I 	-------------------->
 			<div class="row">
@@ -52,7 +85,7 @@
 								</div>
 							</div>
 
-							<div class="row d-flex flex-column justify-content-center mx-5 my-5" id="headerMiddle">
+							<div class="row d-flex flex-column justify-content-center mx-5 my-5">
 								<div class="col-md-12">
 									<span class="text-uppercase"><small>Your own home:</small></span>
 									<h3 class="text-white">
@@ -144,8 +177,8 @@
 
 			<!-----------------	PARTIE II : features	-------------------->
 			<div class="row">
-				<div class="col-md-12 p-5 mt-5" id="partII">
-					<div class="row mb-4">
+				<div class="col-md-12 p-5 mt-5 mb-4" id="partII">
+					<div class="row">
 						<div class="col-md-4 px-5">
 							<h6>World's best luxury homes</h6>
 							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.</p>
@@ -214,7 +247,7 @@
 				<div class="col-md-12" id="partIV">
 					<div class="row">
 
-						<div class="col-md-4 p-5 mb-3">
+						<div class="col-md-4 p-5 mb-3 house_card">
 							<div>
 								<img src="./img/house-1.jpeg" alt="">
 							</div>
@@ -257,7 +290,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-4 p-5 mb-3">
+						<div class="col-md-4 p-5 mb-3 house_card">
 							<div>
 								<img src="./img/house-2.jpeg" alt="">
 							</div>
@@ -300,7 +333,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-4 p-5 mb-3">
+						<div class="col-md-4 p-5 mb-3 house_card">
 							<div>
 								<img src="./img/house-3.jpeg" alt="">
 							</div>
@@ -347,7 +380,7 @@
 
 					<div class="row">
 
-						<div class="col-md-4 p-5 mb-3">
+						<div class="col-md-4 p-5 mb-3 house_card">
 							<div>
 								<img src="./img/house-4.jpeg" alt="">
 							</div>
@@ -390,7 +423,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-4 p-5 mb-3">
+						<div class="col-md-4 p-5 mb-3 house_card">
 							<div>
 								<img src="./img/house-5.jpeg" alt="">
 							</div>
@@ -433,7 +466,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-4 p-5 mb-3">
+						<div class="col-md-4 p-5 mb-3 house_card">
 							<div>
 								<img src="./img/house-6.jpeg" alt="">
 							</div>
@@ -520,7 +553,9 @@
 	</div>
 </div>
 
-    <script src="js/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+	<script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>

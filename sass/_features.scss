@@ -10,4 +10,10 @@
     color: grey;
   }
 
+  @media (max-width: 768px){
+    & p{
+      margin-bottom: 40px;
+    }
+  }
+
 }
